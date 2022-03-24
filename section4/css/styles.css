@@ -1,5 +1,5 @@
 .top-container {
-  background-color: #e4f9f5;
+  background-color: #eaf6f6;
   position: relative;
   padding-top: 100px;
 }
@@ -12,7 +12,7 @@ h1 {
 }
 
 h2 {
-    line-height: 2;
+  line-height: 2;
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
   color: #66bfbf
@@ -22,8 +22,29 @@ h3 {
   color: #11999E
 }
 
+span{
+  text-decoration-line: underline;
+  width: 10px;
+}
+
 a {
+  font-weight: 600;
+  padding: 0px 20px;
   color: #11999E
+
+}
+
+p{
+  font-weight: bold;
+  color: #40514e
+  }
+
+hr{
+  color: lightgrey;
+  width: 5%;
+  border-style: dotted none none;
+  border-width: 8px
+
 }
 
 body {
@@ -44,22 +65,58 @@ body {
   bottom: 300px;
 }
 
-.skill-row{
+.skill-row {
   width: 50%;
   margin: 100px auto;
   text-align: left;
   line-height: 2;
 }
 
-.chillies{
+.chillies {
   width: 25%;
   float: left;
   margin-right: 30px;
-
 }
 
-.computer{
+.computer {
   width: 25%;
   float: right;
-  margin-left:  30px;
+  margin-left: 30px;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cd;
+  background-image: -webkit-linear-gradient(top, #30e3cd, 2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cd, 2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cd, 2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cd, 2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cd, 2bc4ad);
+  text-decoration: none;
+}
+
+.bottom-container{
+  margin-top: 50px;
+  padding: 50px;
+  background-color: #66bfbf;
+}
+
+.contact-me{
+  padding-bottom: 50px;
 }
